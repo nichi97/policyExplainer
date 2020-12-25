@@ -1,0 +1,18 @@
+---
+# front matter tells Jekyll to process Liquid
+layout: default
+my_number: 5
+title: Home
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{page.title}}</title>
+</head>
+<body>
+   <h1>{{"Hello World!" | downcase}}</h1> 
+   <h2>{{page.my_number}}</h2>
+</body>
+</html>
