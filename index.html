@@ -14,5 +14,9 @@ title: Home
 <body>
    <h1>{{"Hello World!" | downcase}}</h1> 
    <h2>{{page.my_number}}</h2>
+   {% assign tobi = "Tobi" %}
+   {% if tobi %}
+   <h1>{{ "HOHO" | downcase }}</h1>
+   {% endif %}
 </body>
 </html>

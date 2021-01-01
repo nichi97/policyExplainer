@@ -2,8 +2,10 @@
 
 source "https://rubygems.org"
 
-gem "jekyll"
+gem "kramdown-parser-gfm"
+gem "jekyll-theme-minimal"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
 
 # gem "rails"
