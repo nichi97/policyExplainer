@@ -2,4 +2,7 @@ collections:
   authors:
     output: true
 
-theme: jekyll-theme-minimal
+gems:
+- jekyll-seo-tag
+
+remote_theme: poole/lanyon
